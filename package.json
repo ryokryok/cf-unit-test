@@ -2,10 +2,12 @@
   "name": "cf-unit-test",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "start": "wrangler dev",
+    "test": "vitest"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230419.0",
